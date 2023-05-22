@@ -1,7 +1,17 @@
 const numbers: number[] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-const binarySearch = (target: number, start: number, end: number): any => {
-  let middle = Math.floor((start + end) / 2);
+type binarySearchType = (
+  target: number,
+  start: number,
+  end: number
+) => string | binarySearchType | undefined;
+
+const binarySearch: binarySearchType = (target, start, end) => {
+  let middle: number = Math.floor((start + end) / 2);
+
+  if (numbers[middle] === undefined) {
+    return "not found";
+  }
 
   if (numbers[middle] === target) {
     return `I found your character at the ${
@@ -18,4 +28,4 @@ const binarySearch = (target: number, start: number, end: number): any => {
   }
 };
 
-console.log(binarySearch(2, 0, numbers.length));
+console.log(binarySearch(8, 0, numbers.length));
