@@ -1,0 +1,3 @@
+# What is Binary Search?
+
+Binary search is a searching algorithm that works on sorted arrays. It begins by comparing the target value to the middle element of the array. If the target is equal to the middle element, then the search is successful and the index of the middle element is returned. If the target is less than the middle element, then the search continues on the lower half of the array. If the target is greater than the middle element, then the search continues on the upper half of the array. This process is repeated until the target is found or the search space is exhausted. Binary search has a time complexity of O(log n), which makes it very efficient for large arrays.

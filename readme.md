@@ -1,8 +1,12 @@
-# WHat Are We Doing Here?
+# What Are We Doing Here?
 
-Whe Write Algorithms With Ttpescript
+We Write Algorithms With Typescript
 
-# What Is Your Resource For Algorithms?
+# What Resource We Use For Algorithms?
 
-.Grokking Algorithms
+.Grokking Algorithms <br />
 .Quera Algorithms
+
+# What Algorithms We Ever Did?
+
+.Binary Search Algorithms
