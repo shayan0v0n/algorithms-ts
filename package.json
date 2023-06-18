@@ -4,7 +4,8 @@
   "description": "Whe Write Algorithms With Ttpescript",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon ./BinarySearch/app.ts"
+    "start:binarySearch": "nodemon ./BinarySearch/app.ts",
+    "start:linkedList": "nodemon ./linkedList/app.ts"
   },
   "repository": {
     "type": "git",
