@@ -10,3 +10,4 @@ We Write Algorithms With Typescript
 # What Algorithms We Ever Did?
 
 .Binary Search Algorithms
+.LinkedList Example
