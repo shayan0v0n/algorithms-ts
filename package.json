@@ -6,7 +6,8 @@
   "scripts": {
     "start:binarySearch": "nodemon ./BinarySearch/app.ts",
     "start:linkedList": "nodemon ./linkedList/app.ts",
-    "start:tree": "nodemon ./Tree/app.ts"
+    "start:tree": "nodemon ./Tree/app.ts",
+    "start:selectonSort": "nodemon ./SelectionSort/app.ts"
   },
   "repository": {
     "type": "git",
