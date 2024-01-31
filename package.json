@@ -9,7 +9,8 @@
     "start:tree": "nodemon ./Tree/app.ts",
     "start:selectonSort": "nodemon ./SelectionSort/app.ts",
     "start:quickSort": "nodemon ./quickSort/app.ts",
-    "start:stack": "nodemon ./Stack/app.ts"
+    "start:stack": "nodemon ./Stack/app.ts",
+    "start:queue": "nodemon ./Queue/app.ts"
   },
   "repository": {
     "type": "git",
