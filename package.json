@@ -8,7 +8,8 @@
     "start:linkedList": "nodemon ./linkedList/app.ts",
     "start:tree": "nodemon ./Tree/app.ts",
     "start:selectonSort": "nodemon ./SelectionSort/app.ts",
-    "start:quickSort": "nodemon ./quickSort/app.ts"
+    "start:quickSort": "nodemon ./quickSort/app.ts",
+    "start:stack": "nodemon ./Stack/app.ts"
   },
   "repository": {
     "type": "git",

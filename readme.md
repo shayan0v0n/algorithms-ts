@@ -7,12 +7,6 @@ We Write Algorithms With Typescript
 .Grokking Algorithms <br />
 .Quera Algorithms
 
-# What Algorithms We Ever Did?
-
-.Binary Search Algorithms <br />
-.LinkedList Example <br />
-.Tree Data Structure Example
-
 # How To Execute Algorithms
 
 you have to use node.js for execute algorithms,
