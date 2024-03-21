@@ -3,18 +3,12 @@
   "version": "1.0.0",
   "description": "Whe Write Algorithms With Ttpescript",
   "main": "index.js",
-  "scripts": {
-    "start:binarySearch": "nodemon ./BinarySearch/app.ts",
-    "start:linkedList": "nodemon ./linkedList/app.ts",
-    "start:tree": "nodemon ./Tree/app.ts",
-    "start:selectonSort": "nodemon ./SelectionSort/app.ts",
-    "start:quickSort": "nodemon ./quickSort/app.ts",
-    "start:stack": "nodemon ./Stack/app.ts",
-    "start:queue": "nodemon ./Queue/app.ts"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/shayan0v0n/algorithms-ts.git"
+  },
+  "scripts": {
+    "install:bun": "curl -fsSL https://bun.sh/install | bash"
   },
   "keywords": [],
   "author": "",
@@ -22,10 +16,5 @@
   "bugs": {
     "url": "https://github.com/shayan0v0n/algorithms-ts/issues"
   },
-  "homepage": "https://github.com/shayan0v0n/algorithms-ts#readme",
-  "dependencies": {
-    "@types/node": "^20.2.1",
-    "nodemon": "^2.0.22",
-    "ts-node": "^10.9.1"
-  }
+  "homepage": "https://github.com/shayan0v0n/algorithms-ts#readme"
 }
