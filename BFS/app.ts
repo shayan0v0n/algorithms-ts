@@ -87,4 +87,4 @@ new Graph()
   .addEdge(1, 4)
   .addEdge(2, 4)
   .addEdge(3, 4)
-  .bfs(0, 42);
+  .bfs(0, 4);
