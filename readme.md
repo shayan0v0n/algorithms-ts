@@ -9,29 +9,21 @@ We Write Algorithms With Typescript
 
 # How To Execute Algorithms
 
-you have to use node.js for execute algorithms,
-then you have to follow this way for execution algorithms
-
-1.first of all you have to install all project dependencies
+as we using typescript you have to use bun or deno for execute algorithms,
+you can install bun as global runtime
 
 <pre>
 <code>
-    npm install
+    npm run install:bun
 </code>
 </pre>
-<br />
-<br />
 
-2.finally you can execute algorithms like this
+and then run the example using bun,
 
 <pre>
 <code>
-    npm run start:<algorithm_name>
+    bun run ./algorithm-dir/app.ts
 </code>
 </pre>
-
-<br />
-
-we have algorithms like linkedList & Tree...
 
 i hope you enjoy:)
