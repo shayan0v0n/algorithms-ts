@@ -1,5 +1,5 @@
 class Queue<T> {
-  protected items: T[];
+  public items: T[];
 
   constructor() {
     this.items = [];
@@ -38,9 +38,9 @@ class Graph {
   }
 
   bfs(startingVertex: number, targetVertex: number): void {
-    const visited: Set<number> = new Set();
     const queue: Queue<number> = new Queue();
     const predecessor: Map<number, number> = new Map();
+    const visited: Set<number> = new Set();
 
     queue.enqueue(startingVertex);
     visited.add(startingVertex);
@@ -48,7 +48,6 @@ class Graph {
     while (!queue.isEmpty()) {
       const currentVertex = queue.dequeue();
 
-      console.log(currentVertex, targetVertex);
       if (currentVertex === targetVertex) {
         const shortestPath: number[] = [];
         let vertex = targetVertex;
@@ -57,7 +56,7 @@ class Graph {
           vertex = predecessor.get(vertex)!;
         }
         shortestPath.unshift(startingVertex);
-        this.dicate(shortestPath);
+        this.show(shortestPath);
         return;
       }
 
@@ -76,7 +75,7 @@ class Graph {
     console.log("No path found.");
   }
 
-  dicate(graph: number[]) {
+  show(graph: number[]) {
     console.log("Shortest path:", graph.join(" -> "));
   }
 }
@@ -89,4 +88,4 @@ new Graph()
   .addEdge(2, 5)
   .addEdge(2, 6)
   .addEdge(6, 7)
-  .bfs(1, 5);
+  .bfs(1, 7);
